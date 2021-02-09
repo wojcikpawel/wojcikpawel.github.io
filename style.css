@@ -1,6 +1,45 @@
 body {
-    background-color:brown;
-    margin-left: 550px;
+    text-align: center;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 60px;
-}
+    background-color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.progress {
+    text-align: center;
+    display: inline-block;
+    margin: 0 32px;
+  }
+
+svg.progress-circle {
+    height: 100px;
+    width: 100px;
+  }
+
+svg.progress-circle circle {
+    r: 15.9154943092; /* 100/(2*pi) */
+    stroke-dashoffset: 25;
+    stroke: black;
+    stroke-width: 1;
+    fill: none;
+    transform: translate(18px, 18px) scaleX(-1);
+  }
+
+svg.progress-circle text {
+    text-anchor: middle;
+    transform: translate(19px, 19px);
+    font-size: 0.5em;
+    alignment-baseline: middle;
+    dominant-baseline: middle;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .skills {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+  }
